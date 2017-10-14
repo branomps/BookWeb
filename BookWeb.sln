@@ -5,6 +5,26 @@ VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookWeb.Api", "BookWeb.Api\BookWeb.Api.csproj", "{2CBF0F2D-5713-4E00-97E8-2C322BB1E468}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "BookClient", "..\..\..\..\..\..\BraMac\BookClient\", "{0464ED0B-86BE-4C65-A92D-965968626745}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51427"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\BraMac\BookClient\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51427\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51427"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\BraMac\BookClient\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51427\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51427"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +35,10 @@ Global
 		{2CBF0F2D-5713-4E00-97E8-2C322BB1E468}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CBF0F2D-5713-4E00-97E8-2C322BB1E468}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CBF0F2D-5713-4E00-97E8-2C322BB1E468}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0464ED0B-86BE-4C65-A92D-965968626745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0464ED0B-86BE-4C65-A92D-965968626745}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0464ED0B-86BE-4C65-A92D-965968626745}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0464ED0B-86BE-4C65-A92D-965968626745}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
