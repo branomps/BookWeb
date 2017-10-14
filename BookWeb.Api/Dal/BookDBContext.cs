@@ -11,15 +11,11 @@ namespace BookWeb.Api.Dal
 {
     public class BookDBContext : DbContext
     {
-        public BookDBContext(string BookConnectionString)
+        public BookDBContext()
         : base("name=BookConnectionString")
         {
         }
 
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
-        {
-            throw new UnintentionalCodeFirstException();
-        }
         public DbSet<Book> Books { get; set; }
     }
 }
